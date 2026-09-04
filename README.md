@@ -42,6 +42,4 @@ Contributions are welcome. Please open issues for bugs or feature requests and u
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
 
----
 
-If you prefer a different license or want the README kept in French, tell me which license or language and I will adjust accordingly.
