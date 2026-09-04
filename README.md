@@ -1,32 +1,47 @@
 # Obsidian AI Knowledge Automation
 
-Ce projet vise à automatiser la gestion, l'enrichissement et la recherche de connaissances dans Obsidian à l'aide de l'IA.
+Obsidian AI Knowledge Automation provides a set of workflows and examples to enrich, organize, and search knowledge in Obsidian using AI-powered automation.
 
-## Structure du projet
+## Key Features
 
-- `workflow/` : automatisations et flux de traitement
-- `docs/` : documentation technique et utilisateur
-- `examples/` : exemples d'utilisation et de configuration
-- `screenshots/` : captures d'écran et visuels du projet
+- Structured automation workflows for knowledge enrichment
+- Example configurations and usage patterns
+- Documentation and screenshots to help onboard faster
 
-## Objectifs
+## Repository Layout
 
-- centraliser les notes Obsidian
-- enrichir les contenus avec des processus IA
-- organiser la connaissance de manière structurée
-- faciliter la recherche et l'exploitation des données
+- `workflow/` — automation flows and processing pipelines
+- `docs/` — technical and user documentation
+- `examples/` — example setups and configuration samples
+- `screenshots/` — visual references and UI captures
+
+## Quick Start
+
+1. Clone the repository:
+
+	git clone <repository-url>
+
+2. Copy and configure environment variables:
+
+	cp .env.example .env
+	# Edit `.env` with your credentials and settings
+
+3. Review `examples/` for sample inputs and configuration.
+
+4. Run the workflows from `workflow/` according to the instructions in the relevant files.
 
 ## Configuration
 
-Copiez le fichier `.env.example` vers `.env` et configurez vos variables d'environnement avant d’exécuter les workflows.
+Most workflows require environment variables. Copy `.env.example` to `.env` and update the values before running any automation.
 
-## Développement
+## Contributing
 
-1. Cloner le dépôt
-2. Configurer les variables d'environnement
-3. Examiner les exemples dans `examples/`
-4. Utiliser les workflows de `workflow/`
+Contributions are welcome. Please open issues for bugs or feature requests and use pull requests for code changes. Include clear descriptions and, where possible, example inputs and expected outputs.
 
-## Licence
+## License
 
-À définir selon le besoin du projet.
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
+
+---
+
+If you prefer a different license or want the README kept in French, tell me which license or language and I will adjust accordingly.
